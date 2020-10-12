@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @employeemodel.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @employeemodel.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @employeemodel.gender %>
+</p>
+
+<p>
+  <strong>Designation:</strong>
+  <%= @employeemodel.designation %>
+</p>
+
+<%= link_to 'Edit', edit_employeemodel_path(@employeemodel) %> |
+<%= link_to 'Back', employeemodels_path %>
